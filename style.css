@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat&display=swap');
+
+
+body{
+    background: #292929;
+    color: white;
+}
+
+#head{
+    display: flex;
+    background-color: #101010;
+    color: white;
+    min-height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    padding:0rem 4rem;
+}
+
+#head h1{
+    font-size: 2.25rem;
+}
+
+#head h2{
+    font-size: 1.25rem;
+}
+
+.img{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20rem;
+    min-height: 3rem;
+    min-width: 3rem;
+}
+
+.fl_type{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#fbar{
+    justify-content: space-between;
+    padding: 1.75rem 3rem;
+}
+
+#fbar ul{
+    display: flex;
+    gap: 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#fbar li{
+    color: #D0CBCB;
+    font-size: 1rem;
+}
+
+#fbar li:hover{
+    color: white;
+}
+
+.under{
+    text-decoration-line: underline;
+    color: white;
+}
+
+.card{
+    display: flex;
+    margin: 1rem 3rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    background-color: #171717;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card .map{
+    min-width: 18.5rem;
+    min-height: 9.25rem;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    background-color: aqua;
+}
+
+.card .cs{
+    display: flex;
+   margin-left:auto ;
+   margin-bottom: auto;
+   gap: 2rem;
+}
+
+.cs .sqc{
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+
+.pg {
+    display: none;
+    border-top: none;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

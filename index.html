@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "stylesheet" href = "style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edvora</title>
+</head>
+<body>
+    <div id = "head">
+        <h1>Edvora</h1>
+        <div class ="fl_type">
+            <h2>Dhruv Singh</h2>
+            <div class="img">
+            </div>
+        </div>
+    </div>
+    <div id = "fbar" class  = "fl_type">
+        <ul>
+        <li id ="dfo" onclick = "opentab(event, 'main')" > Nearest rides </li>
+        <li onclick="opentab(event, 'main2')" >Upcoming rides (4)</li>
+        <li onclick="opentab(event, 'main3')" >Past rides (2)</li>
+    </ul>
+    <div id ="filter"><p>filter</p></div>
+</div>
+    <div id="main" class = "pg">
+        <div class="card">
+            <div class ="map"></div>
+            <div class = "content">df</div>
+                <div class ="cs"> <p class="sqc">City Name</p> <p class ="sqc">State Name</p></div>
+        </div>
+        <div class="card"><div class ="map"></div>
+        <div class = "content"></div>
+            <div class ="cs"> <p class="sqc">City Name</p> <p class ="sqc">State Name</p></div>
+        </div>
+        <div class="card" class = "content"><div class ="map"></div>
+        <div class = "content"></div>
+            <div class ="cs"> <p class="sqc">City Name</p> <p class ="sqc">State Name</p></div>
+        </div>
+        <div class="card" class = "content"><div class ="map"></div>
+        <div class = "content"></div>
+            <div class ="cs"> <p class="sqc">City Name</p> <p class ="sqc">State Name</p></div>
+        </div>
+    </div>
+    <div id="main2" class = "pg">
+        <div class="card">
+            <div class ="map"></div>
+            <div class = "content"><!--Ride Id : 002 <br>
+                Origin Station : 20<br>
+                station_path : [20, 39, 40, 42, 54, 63, 72, 88, 98] <br>
+                Date : 15th Feb 2022 16:33 <br>
+                Distance : 0--></div>
+                <div class ="cs"> <p class="sqc">City Name</p> <p class ="sqc">State Name</p></div>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    <div id="main3" class = "pg">
+        <div class="card">
+            <div class ="map"></div>
+            <div><!--Ride Id : 002 <br>
+                Origin Station : 20<br>
+                station_path : [20, 39, 40, 42, 54, 63, 72, 88, 98] <br>
+                Date : 15th Feb 2022 16:33 <br>
+                Distance : 0--></div>
+                <div class ="cs"> <p class="sqc">City Name</p> <p class ="sqc">State Name</p></div>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    <script  src = "sandbox.js"></script>
+    <script type = "module" src = "sandbox2.js"></script>
+</body>
+</html>
